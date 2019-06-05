@@ -10,3 +10,6 @@ Unityのエディタと同じような操作でカメラを動かすことがで
 [WebGLによる実行はこちら](https://imagire.github.io/Revolution/)
 
 ![結果](result.png)
+
+# Thanks!
+Use textures from [solar system scope](https://www.solarsystemscope.com/textures/)!
