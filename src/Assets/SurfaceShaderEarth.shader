@@ -46,10 +46,8 @@
             o.Metallic = _Metallic;
             o.Smoothness = _Glossiness;
             o.Alpha = c.a;
-			if (0.7 < IN.uv_MainTex.y && IN.uv_MainTex.y < 0.71)
-			{
-				o.Emission = float4(10.0, 0.3, 0.3, 0.0);
-			}
+
+			o.Emission = (0.7 < IN.uv_MainTex.y && IN.uv_MainTex.y < 0.71) ? float4(10.0, 0.3, 0.3, 0.0) : float4(0,0,0,0);
         }
         ENDCG
     }
